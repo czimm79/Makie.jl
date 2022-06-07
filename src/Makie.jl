@@ -325,13 +325,9 @@ export heatmap!, image!, lines!, linesegments!, mesh!, meshscatter!, scatter!, s
 
 export PointLight, EnvironmentLight, AmbientLight, SSAO
 
-<<<<<<< HEAD
-include("precompiles.jl")
-=======
 if Base.VERSION >= v"1.4.2"
-    # include("precompiles.jl")
-    # _precompile_()
+    include("precompiles.jl")
+    _precompile_()
 end
->>>>>>> 6c6203021 (switch to using untyped PlotObject)
 
 end # module
